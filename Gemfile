@@ -13,7 +13,6 @@ gem 'bootstrap-sass'
 
 group :development, :test do
 	gem 'sqlite3'
-  gem 'byebug', platform: :mri
 end
 
 group :production do
