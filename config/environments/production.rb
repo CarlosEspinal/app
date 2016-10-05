@@ -86,7 +86,7 @@ Rails.application.configure do
 
   #required for heroku
   #not to set this to set for actual host
-  config.action_mailer.default_url_options = { host: => 'https://travel-always.herokuapp.com/' }
+  config.action_mailer.default_url_options = { host: 'https://travel-always.herokuapp.com/' }
 
 
 end
