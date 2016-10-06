@@ -72,6 +72,9 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
+    devise-authy (1.7.0)
+      authy
+      devise
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.14)
@@ -209,6 +212,7 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.2)
   devise (~> 4.2.0.rc2)
+  devise-authy
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)

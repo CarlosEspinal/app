@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 gem 'authy'
+gem 'devise-authy'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'twilio-ruby'
 gem 'puma', '~> 3.0'
