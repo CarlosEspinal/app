@@ -39,8 +39,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.2)
-    authy (2.7.1)
-      httpclient (>= 2.5.3.3)
     autoprefixer-rails (6.5.0.1)
       execjs
     aws-sdk (1.66.0)
@@ -72,15 +70,11 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
-    devise-authy (1.7.0)
-      authy
-      devise
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.14)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
-    httpclient (2.8.2.4)
     i18n (0.7.0)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
@@ -207,12 +201,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  authy
   aws-sdk (< 2.0)
   bootstrap-sass
   coffee-rails (~> 4.2)
   devise (~> 4.2.0.rc2)
-  devise-authy
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
@@ -236,4 +228,4 @@ RUBY VERSION
    ruby 2.3.0p0
 
 BUNDLED WITH
-   1.13.2
+   1.13.6
